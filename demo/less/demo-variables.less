@@ -26,9 +26,11 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #fff;
+@body-bg:               #cacaca;
 //** Global text color on `<body>`.
 @text-color:            @gray-dark;
+//** Background image for `<body>`
+@body-bg-image:         url(../content/img/bground.jpg);
 
 //** Global textual link color.
 @link-color:            @brand-primary;
@@ -76,7 +78,7 @@
 //## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
 
 //** Load fonts from this directory.
-@icon-font-path:          "../fonts/";
+@icon-font-path:          "../content/fonts/";
 //** File name for all font files.
 @icon-font-name:          "glyphicons-halflings-regular";
 //** Element ID within SVG icon file.
@@ -102,9 +104,9 @@
 @line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome
 @line-height-small:         1.5;
 
-@border-radius-base:        4px;
-@border-radius-large:       6px;
-@border-radius-small:       3px;
+@border-radius-base:        0px;
+@border-radius-large:       0px;
+@border-radius-small:       0px;
 
 //** Global color for active items (e.g., navs or dropdowns).
 @component-active-color:    #fff;
@@ -145,8 +147,8 @@
 @btn-font-weight:                normal;
 
 @btn-default-color:              #333;
-@btn-default-bg:                 #fff;
-@btn-default-border:             #ccc;
+@btn-default-bg:                 #e6e6e6;
+@btn-default-border:             #c8c8c8;
 
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 @brand-primary;
@@ -181,14 +183,14 @@
 //##
 
 //** `<input>` background color
-@input-bg:                       #fff;
+@input-bg:                       #ffffdd;
 //** `<input disabled>` background color
 @input-bg-disabled:              @gray-lighter;
 
 //** Text color for `<input>`s
-@input-color:                    @gray;
+@input-color:                    #333;
 //** `<input>` border color
-@input-border:                   #ccc;
+@input-border:                   #e2e2e2;
 
 // TODO: Rename `@input-border-radius` to `@input-border-radius-base` in v4
 //** Default `.form-control` border radius
@@ -232,13 +234,13 @@
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-@dropdown-bg:                    #fff;
+@dropdown-bg:                    @gray-lighter;
 //** Dropdown menu `border-color`.
 @dropdown-border:                rgba(0,0,0,.15);
 //** Dropdown menu `border-color` **for IE8**.
 @dropdown-fallback-border:       #ccc;
 //** Divider color for between dropdown items.
-@dropdown-divider-bg:            #e5e5e5;
+@dropdown-divider-bg:            rgb(136, 136, 136);
 
 //** Dropdown link text color.
 @dropdown-link-color:            @gray-dark;
@@ -347,7 +349,7 @@
 @container-md:                 @container-desktop;
 
 // Large screen / wide desktop
-@container-large-desktop:      (1140px + @grid-gutter-width);
+@container-large-desktop:      (1250px + @grid-gutter-width);
 //** For `@screen-lg-min` and up.
 @container-lg:                 @container-large-desktop;
 
@@ -357,8 +359,8 @@
 //##
 
 // Basics of a navbar
-@navbar-height:                    50px;
-@navbar-margin-bottom:             @line-height-computed;
+@navbar-height:                    28px;
+@navbar-margin-bottom:             0;
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor((@grid-gutter-width / 2));
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
@@ -704,7 +706,7 @@
 
 @panel-bg:                    #fff;
 @panel-body-padding:          15px;
-@panel-heading-padding:       10px 15px;
+@panel-heading-padding:       5px 15px;
 @panel-footer-padding:        @panel-heading-padding;
 @panel-border-radius:         @border-radius-base;
 
@@ -714,7 +716,7 @@
 
 @panel-default-text:          @gray-dark;
 @panel-default-border:        #ddd;
-@panel-default-heading-bg:    #f5f5f5;
+@panel-default-heading-bg:    #e6e6e6;
 
 @panel-primary-text:          #fff;
 @panel-primary-border:        @brand-primary;
