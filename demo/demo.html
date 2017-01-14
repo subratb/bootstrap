@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>MyBootstrap Test</title>
+    <script src="http://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+    <!--<link rel="stylesheet/less" type="text/css" href="../less/bootstrap.less" />-->
+    <link rel="stylesheet/less" type="text/css" href="less/demo-bootstrap-theme.less" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+
+    <!--link rel="stylesheet/less" type="text/css" href="less/my-bootstrap-theme.less" /-->
+    <!--<link rel="stylesheet" type="text/css" href="less/my-bootstrap-theme.css" />-->
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+</head>
+
+<body>
+    <div class="container radiant">
+        <div class="masthead border-top border-left border-right">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-banner" aria-expanded="false" aria-controls="navbar-banner">
+                        <span class="sr-only">Toggle banner</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a href="Home">
+                            <img alt="" src="content/img/demo.png" /></a>
+                    </div>
+                    <div id="navbar-banner" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#" target="_blank">Submit Feedback</a></li>
+                            <li><a href="#">30:00</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <nav class="navbar navbar-default user-info border-left border-right">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-user-info" aria-expanded="false" aria-controls="navbar-user-info">
+                        <span class="sr-only">Toggle user info</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Driver License System</a>
+                </div>
+                <div id="navbar-user-info" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Welcome, User!</a></li>
+                        <li><a href="javascript:$.closeCurrentWindow();">Log off</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-default menu-bar border-left border-right border-bottom">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Driver Search</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Driver<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="#">Information</a>
+                                    <ul class="dropdown-menu">
+                                        <li title=DRVUPD/DLD002><a href="#">Driver Update</a></li>
+                                        <li title=DS/DLL004><a href="#">DK/DL/DS - Full Driver Inquiry</a></li>
+                                        <li title=ECS/DLL003><a href="#">Emergency Contact Data Inquiry</a></li>
+                                        <li title=MRGUPD/DLD039><a href="#">Driver Merge Update</a></li>
+                                        <li title=CCNLST/DLD047><a href="#">Court Case Number list</a></li>
+                                        <li title=DEVREQ/DLD003><a href="#">Driver Evaluation Request</a></li>
+                                        <li title=DLHLST/DLD017><a href="#">Driver license History list</a></li>
+                                        <li title=DN/DLL003><a href="#">DN - By-Name Driver Look-up</a></li>
+                                        <li title=ECDUPD/DLD025><a href="#">Emergency Contact Data Update</a></li>
+                                        <li title=UMGUPD/DLD040><a href="#">Driver Unmerge Update</a></li>
+                                        <li title=BCNLST/DLD048><a href="#">BMV Case Number list</a></li>
+                                        <li title=DAAUPD/DLD037><a href="#">DL Mailing Address Update</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href=""></a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Convictions</a>
+                                    <ul class="dropdown-menu">
+                                        <li title=C1LST/DLD005><a href="#">C1/C2 list </a></li>
+                                        <li title=C1RLST/DLD054><a href="#">C1/C2 Reject Correction list </a></li>
+                                        <li title=C3LST/DLD006><a href="#">C3 list </a></li>
+                                        <li title=C6LST/DLD007><a href="#">C6 list </a></li>
+                                        <li title=CNVLST/DLD016><a href="#">Conviction list </a></li>
+                                        <li title=C1UPD/DLD035><a href="#">C1/C2 Update </a></li>
+                                        <li title=C3UPD/DLD038><a href="#">C3 Update </a></li>
+                                        <li title=C6UPD/DLD018><a href="#">C6 Update </a></li>
+                                        <li title=CNDLST/DLD009><a href="#">Convictions Delete list </a></li>
+                                        <li title=C7UPD/DLD049><a href="#">C7 Update </a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Withdrawal</a>
+                                    <ul class="dropdown-menu">
+                                        <li title=WTDLST/DLM003><a href="#">Withdrawal list </a></li>
+                                        <li title=PRWLST/DLM035><a href="#">Withdrawl Purge list </a></li>
+                                        <li title=WSHLST/DLD021><a href="#">Withdrawal Status History list </a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">License</a>
+                                    <ul class="dropdown-menu">
+                                        <li title=K1UPD/DLD036><a href="#">license Issuance (K1) Update</a></li>
+                                        <li title=DS/DLL004><a href="#">DK, DL, DS:<BR>Full Driver Inquiry</a></li>
+                                        <li title=OSLST/DLD045><a href="#">Out of State license Issuance list</a></li>
+                                        <li title=CDKUPD/DLD024><a href="#">Create Driver Key Update</a></li>
+                                        <li title=RACUPD/DLD063><a href="#">Reprint Address Change Card</a></li>
+                                        <li title=DLHLST/DLD017><a href="#">Driver license History list</a></li>
+                                        <li title=DRVUPD/DLD002><a href="#">Driver Update</a></li>
+                                        <li title=TCLUPD/DLD023><a href="#">Temporary Clearance Update</a></li>
+                                        <li title=DN/DLL003><a href="#">DN<BR>By-Name Driver Look-up</a></li>
+                                        <li title=OSUPD/DLD032><a href="#">Out of State license Issuance Update</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Others</a>
+                                    <ul class="dropdown-menu">
+                                        <li title=WBLST/DLD044><a href="#">Warrant Block list </a></li>
+                                        <li title=WBUPD/DLD031><a href="#">Warrant Block Update </a></li>
+                                        <li title=KSHLST/DLD026><a href="#">Child Support History list </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/ODPS.BMV.UI/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UNI<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="#">AAMVA Inquiries</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Search/History Inquiry (DRSREQ)</a></li>
+                                        <li><a href="#">Employee/Employer Inquiry (EMPREQ)</a></li>
+                                        <li><a href="#">Add/Delete Driver</a></li>
+                                        <li><a href="#">Change Data (MPUREQ)</a></li>
+                                        <li><a href="#">CSOR (CSRREQ)</a></li>
+                                        <li><a href="#">Duplicate Drivers (CDRLST/MDUREQ)</a></li>
+                                        <li><a href="#">Broken Pointer Data Fix</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Ten Year History List (TYBLST)</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Log</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Activity Log (PDHINQ/SVHLST)</a></li>
+                                        <li><a href="#">EE/ER Log (EMPLST)</a></li>
+                                        <li><a href="#">UNI Program Errors</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Others<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li title=ACCLST/DLD011><a href="#">Accident Information list </a></li>
+                                <li title=CSLST/DLD043><a href="#">Cosigner list </a></li>
+                                <li title=NRLST/DLD046><a href="#">Narrative list </a></li>
+                                <li title=N6LST/DLD042><a href="#">Six Point Warning list </a></li>
+                                <li title=RMLST/DLD041><a href="#">Remedial Driving list </a></li>
+                                <li title=WBLST/DLD044><a href="#">Warrant Block list </a></li>
+                                <li title=ACCUPD/DLD008><a href="#">Accident Information Update </a></li>
+                                <li title=CSUPD/DLD030><a href="#">Cosigner Update </a></li>
+                                <li title=NRUPD/DLD033><a href="#">Narrative Update </a></li>
+                                <li title=N6UPD/DLD029><a href="#">Six Point Warning Update </a></li>
+                                <li title=RMUPD/DLD028><a href="#">Remedial Driving Update </a></li>
+                                <li title=WBUPD/DLD031><a href="#">Warrant Block Update </a></li>
+                                <li title=INFLST/DLD010><a href="#">Information list </a></li>
+                                <li title=FPUPD/DLD012><a href="#">Fee Payment Plan Update </a></li>
+                                <li title=JDGLST/DLD015><a href="#">Judgement/Security History list </a></li>
+                                <li title=MOHLST/DLD022><a href="#">Modification Order History list </a></li>
+                                <li title=SRBLST/DLD020><a href="#">SR22/SR26 Bond Filing list </a></li>
+                                <li title=SRBUPD/DLD019><a href="#">SR22/SR26 Bond Filing Update </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transaction History<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li title=TRHLST/DLP001><a href="#">Transaction History list </a></li>
+                                <li title=SVHLST/DLU022><a href="#">SSN Verification History </a></li>
+                                <li title=TRAREQ/DLP003><a href="#">Transaction History Report Request </a></li>
+                                <li title=AUDREQ/DLP007><a href="#">User Audit Data Request </a></li>
+                                <li title=RPSLST/DLO001><a href="#">Report Status list </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Batch<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li title=C1RLST/DLD054><a href="#">Batch Reject Reprocessing list </a></li>
+                                <li title=REJLST/DLD013><a href="#">Batch Reject/Warning Transaction list </a></li>
+                                <li title=BTRLST/DLM017><a href="#">Batch Transaction list </a></li>
+                                <li title=ERRUPD/DLM015><a href="#">Batch Error Message Update </a></li>
+                                <li title=BPRUPD/DLM025><a href="#">Batch Processing Update </a></li>
+                                <li title=RACUPD/DLD063><a href="#">Reprint Address Change Card </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Agencies<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li title=CRTLST/DLS003><a href="#">Court list </a></li>
+                                <li title=LEALST/DLS014><a href="#">Law Enforcement Agency list </a></li>
+                                <li title=SDTLST/DLS008><a href="#">School District list </a></li>
+                                <li title=POCLST/DLS021><a href="#">Point of Contact list </a></li>
+                                <li title=CSALST/DLS028><a href="#">Child Support Enforcement Agency list </a></li>
+                                <li title=CSAUPD/DLS029><a href="#">Child Support Enforcement Agy Update </a></li>
+                                <li title=CRTUPD/DLS002><a href="#">Court Code Update </a></li>
+                                <li title=LEAUPD/DLS005><a href="#">Law Enforcement Agency Update </a></li>
+                                <li title=SDTUPD/DLS011><a href="#">School District Update </a></li>
+                                <li title=POCUPD/DLS020><a href="#">Point of Contact Update </a></li>
+                                <li role="separator" class="divider"></li>
+                                <li title=INSLST/DLS004><a href="#">Insurance Company list </a></li>
+                                <li title=INSUPD/DLS012><a href="#">Insurance Company Update </a></li>
+                                <li title=POCLST/DLS021><a href="#">Point of Contact list </a></li>
+                                <li title=POCUPD/DLS020><a href="#">Point of Contact Update </a></li>
+                                <li title=RDSLST/DLS025><a href="#">Remedial Driving School list </a></li>
+                                <li title=RDSUPD/DLS024><a href="#">Remedial Driving School Update </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reports<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li title=DABREQ/DLA011><a href="#">Abstract Request </a></li>
+                                <li title=DRPREQ/DLO020><a href="#">Document Reprint Request </a></li>
+                                <li title=RPTREQ/DLO006><a href="#">Report Request </a></li>
+                                <li title=TRAREQ/DLP003><a href="#">Transaction History Report Request </a></li>
+                                <li title=EXPREQ/DLO025><a href="#">Expunged Records Request </a></li>
+                                <li title=DRHREQ/DLH011><a href="#">Driver History Request </a></li>
+                                <li title=DLVREQ/DLA012><a href="#">license Verification Request </a></li>
+                                <li title=DHSLST/DLO022><a href="#">Document History list </a></li>
+                                <li title=RPSLST/DLO001><a href="#">Report Status list </a></li>
+                                <li title=AUDREQ/DLP007><a href="#">User Audit Data Request </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">System Tables<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li title=OFFLST/DLS017><a href="#">Ohio/ACD Offense Code list </a></li>
+                                <li title=ACDUPD/DLS023><a href="#">ACD Offense Code Update </a></li>
+                                <li title=DNMLST/DLO023><a href="#">Document Name list </a></li>
+                                <li title=CTLUPD/DLD004><a href="#">BMV Case Number Control Update </a></li>
+                                <li title=AREUPD/DLS013><a href="#">Area Code Update </a></li>
+                                <li title=RPCUPD/DLO004><a href="#">Report Code Update </a></li>
+                                <li title=OFFUPD/DLS022><a href="#">Ohio Offense Code Update </a></li>
+                                <li title=CDQUPD/DLS026><a href="#">CDL Disqualification Code Update </a></li>
+                                <li title=DNMUPD/DLO024><a href="#">Document Name Update </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Security<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li title=USRLST/SEC011><a href="#">User list </a></li>
+                                <li title=DIVUPD/SEC001><a href="#">Division Update </a></li>
+                                <li title=SCRLST/SEC005><a href="#">Screen Code list </a></li>
+                                <li title=SBSLST/SEC010><a href="#">Screen list By System </a></li>
+                                <li title=STHLST/SEC007><a href="#">Security Transaction History list </a></li>
+                                <li title=SETNGS/SEC009><a href="#">User Settings Page </a></li>
+                                <li title=PROUPD/SEC003><a href="#">User Profile Update </a></li>
+                                <li title=SECUPD/SEC002><a href="#">Section Update </a></li>
+                                <li title=SCRUPD/SEC006><a href="#">Screen Code Update </a></li>
+                                <li title=RPSLST/DLO001><a href="#">Report Status list </a></li>
+                                <li title=STHREQ/SEC015><a href="#">Security Trans History Report Request </a></li>
+                                <li title=PROREQ/SEC016><a href="#">User Profile Report Request </a></li>
+                                <li title=XUSRUP/SEC018><a href="#">External User Profile Update </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+            <!--/.container-fluid -->
+        </nav>
+        <div class="body-panel">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Driver Summary</h3>
+                </div>
+                <div class="panel-body">
+                    <form class="form-inline" action="/ODPS.BMV.UI/Driver/Search" method="post">
+                        <div class="form-group">
+                            <label for="DriverLicenseKey">Key</label>
+                            <input type="text" class="form-control" placeholder="Key number" aria-describedby="basic-addon-key" data-val="true" data-val-length="Driver License Key cannot be longer than 9 characters" data-val-length-max="9" data-val-regex="Key must be numeric" data-val-regex-pattern="[0-9]{1,9}"
+                                id="DriverLicenseKey" maxlength="9" name="DriverLicenseKey" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label for="Ssn">SSN</label>
+                            <input type="text" class="form-control" placeholder="SSN" aria-describedby="basic-addon-ssn" data-val="true" data-val-length="Social Security Number cannot be longer than 9 characters" data-val-length-max="9" data-val-regex="SSN must be numeric" data-val-regex-pattern="^(\d{3}-?\d{2}-?\d{4})$"
+                                id="Ssn" maxlength="9" name="Ssn" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label for="DriverLicenseNumber">DLN</label>
+                            <input type="text" class="form-control" placeholder="License" aria-describedby="basic-addon-dln" data-val="true" data-val-length="Driver License Number must be exactly 8 characters" data-val-length-max="8" data-val-regex="Driver License Number must be 2 letters followed by 6 numbers"
+                                data-val-regex-pattern="^[A-Za-z]{2}[0-9]{6}" id="DriverLicenseNumber" maxlength="10" name="DriverLicenseNumber" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label for="CaseNumber">Case Number</label>
+                            <input type="text" class="form-control" placeholder="Case number" aria-describedby="basic-addon-case" data-val="true" data-val-length="Case Number cannot be longer than 10 characters" data-val-length-max="10" id="CaseNumber" maxlength="10" name="CaseNumber"
+                                value="" />
+                        </div>
+                        <button type="submit" class="btn btn-default " value="Search" aria-label="Search" style="margin-left:20px;"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /container -->
+    <!-- Site footer -->
+
+    <footer class="footer">
+
+        <p style="text-align:center;">Ohio Department of Public Safety &copy; 2016</p>
+
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
